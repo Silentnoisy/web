@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .root > div {
+        float: left;
+        width: 15%;
+        height: 200px;
+        line-height: 200px;
+
+        text-align: center;
+      }
+
+      .bg1 {
+        background-color: pink;
+      }
+
+      .bg2 {
+        background-color: grey;
+      }
+
+      @media screen and (max-width: 1000px) {
+        .d5 {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <div class="d1 bg1">d1</div>
+      <div class="d2 bg2">d2</div>
+      <div class="d3 bg1">d3</div>
+      <div class="d4 bg2">d4</div>
+      <div class="d5 bg1">d5</div>
+    </div>
+  </body>
+</html>

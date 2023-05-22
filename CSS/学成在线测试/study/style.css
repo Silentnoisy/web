@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w {
+  width: 1200px;
+  margin: auto;
+}
+body {
+  background-color: #f3f5f7;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.header {
+  height: 42px;
+  min-width: 1000px;
+  margin: 30px auto;
+}
+.header .logo {
+  float: left;
+  width: 200px;
+  height: 42px;
+  background-image: url(./images/logo.png);
+}
+.nav {
+  width: 30%;
+  float: left;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav ul li a {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  color: #050505;
+}
+
+.nav ul li a:hover {
+  border-bottom: 2px solid #00a4ff;
+  color: #00a4ff;
+}
+
+.search {
+  float: left;
+  border: 1px solid #00a4ff;
+  height: 40px;
+}
+
+.search input {
+  float: left;
+  width: 200px;
+  height: 100%;
+  border: 0;
+  color: #bfbfbf;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.search button {
+  float: right;
+  background: url(./images/btn.png);
+  width: 50px;
+  height: 100%;
+  border: 0;
+}
+
+.user {
+  float: right;
+  height: 42px;
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.user span {
+  margin-left: 10px;
+}
+
+.banner {
+  height: 421px;
+  background-color: #1c036c;
+}
+
+.banner .w {
+  height: 421px;
+  background: url(images/banner2.png) no-repeat top center;
+}
+
+.subnav {
+  float: left;
+  width: 190px;
+  height: 421px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.subnav ul {
+  padding: 10px 20px;
+}
+
+.subnav ul li a {
+  color: #fff;
+  width: 190px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.subnav ul li a span {
+  float: right;
+}
+
+.course {
+  float: right;
+  width: calc(1200px - 190px);
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
